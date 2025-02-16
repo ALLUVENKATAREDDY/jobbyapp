@@ -1,0 +1,281 @@
+.jobs-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: black;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.failure-image {
+  height: 200px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.failure-message {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.jobs-division-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.left-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.right-container {
+  width: 75%;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+.left-container-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.left-card-heading {
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  color: #4f46e5;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.left-card-para {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  color: #64748b;
+}
+
+.horizontal-line {
+  border: 2px solid #64748b;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.left-container-heading {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: roboto;
+}
+
+.jobs-leftContainer-label {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+}
+
+.checkbox-list {
+  list-style-type: none;
+}
+
+.checkbox-label-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.left-container-checkbox {
+  width: 50px;
+}
+
+.leftContainer-margin {
+  margin-bottom: 10px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+
+.right-search-input {
+  width: 90%;
+  font-size: 15px;
+  padding-left: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.rigth-container-searchIcon {
+  color: white;
+}
+
+.searchiconButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.noJobs {
+  height: 200px;
+  width: 200px;
+}
+
+.no-products-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.no-produts-found-heading {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.no-produts-found-para {
+  font-family: roboto;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets */
+@media (max-width: 768px) {
+  .jobs-division-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .left-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .right-container {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 20px;
+  }
+
+  .search-container {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .left-container-card {
+    padding: 15px;
+  }
+
+  .left-card-heading {
+    font-size: 20px;
+  }
+
+  .left-card-para {
+    font-size: 14px;
+  }
+
+  .left-container-heading {
+    font-size: 22px;
+  }
+
+  .jobs-leftContainer-label {
+    font-size: 18px;
+  }
+
+  .no-produts-found-heading {
+    font-size: 30px;
+  }
+
+  .no-produts-found-para {
+    font-size: 16px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .jobs-main-container {
+    min-height: 80vh;
+  }
+
+  .jobs-division-container {
+    width: 95%;
+  }
+
+  .left-container-card {
+    padding: 10px;
+  }
+
+  .left-card-heading {
+    font-size: 18px;
+  }
+
+  .left-card-para {
+    font-size: 12px;
+  }
+
+  .left-container-heading {
+    font-size: 20px;
+  }
+
+  .jobs-leftContainer-label {
+    font-size: 16px;
+  }
+
+  .search-container {
+    height: 25px;
+  }
+
+  .right-search-input {
+    font-size: 14px;
+  }
+
+  .noJobs {
+    height: 150px;
+    width: 150px;
+  }
+
+  .no-produts-found-heading {
+    font-size: 24px;
+  }
+
+  .no-produts-found-para {
+    font-size: 14px;
+  }
+}

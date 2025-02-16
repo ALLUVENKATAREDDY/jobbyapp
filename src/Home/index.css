@@ -1,0 +1,101 @@
+/* Home Page Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center align for mobile */
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  overflow: hidden;
+  text-align: center; /* Ensure text is centered */
+}
+
+/* Home Page Heading */
+.home-heading {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Content Container */
+.home-content-container {
+  width: 60%;
+  max-width: 600px;
+  flex-wrap: wrap;
+}
+
+/* Paragraph */
+.home-content {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  color: #f8fafc;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.home-button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  background-color: #4f46e5;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 30px;
+  }
+
+  .home-heading {
+    font-size: 32px;
+  }
+
+  .home-content-container {
+    width: 80%;
+  }
+
+  .home-content {
+    font-size: 18px;
+  }
+
+  .home-button {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .home-heading {
+    font-size: 28px;
+  }
+
+  .home-content-container {
+    width: 90%;
+  }
+
+  .home-content {
+    font-size: 16px;
+  }
+
+  .home-button {
+    height: 45px;
+    font-size: 14px;
+  }
+}

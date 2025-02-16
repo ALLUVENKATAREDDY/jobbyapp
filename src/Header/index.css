@@ -1,0 +1,85 @@
+/* General Styles */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #202020;
+  width: 100%;
+  height: 80px;
+  padding: 0 20px;
+}
+
+/* Logo Styling */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-logo-image {
+  height: 40px;
+  width: 80px;
+}
+
+/* Desktop Navbar */
+.large-container {
+  display: flex;
+}
+
+.nav-headings-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-heading {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+/* Logout Button */
+.logoutButton {
+  height: 40px;
+  width: 90px;
+  border-radius: 8px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.logoutButton-Container {
+  list-style-type: none;
+}
+/* Mobile Navbar */
+.mobile-container {
+  display: none;
+}
+
+/* Mobile Icons */
+.mobile-icons {
+  font-size: 24px;
+  color: white;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .large-container {
+    display: none; /* Hide Desktop Navbar in Mobile */
+  }
+  .mobile-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,325 @@
+/* Base Styles */
+.ProductItemDetailsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Card Styling */
+.cardItemDetails {
+  min-height: 90vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+/* Company Logo */
+.company-logo {
+  height: 60px;
+  width: 60px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+/* Job Title */
+.job-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* Job Rating */
+.job-rating {
+  color: white;
+  margin: 0;
+}
+
+/* Star Color */
+.star {
+  color: #fbbf24;
+}
+
+/* Top Container */
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Margin and Space Utility */
+.margin-top {
+  margin-top: 10px;
+}
+.space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Job Meta Data */
+.map-job-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.map-icon {
+  color: white;
+  margin-right: 5px;
+}
+
+.job-location {
+  color: white;
+  margin-right: 10px;
+}
+
+.white-color {
+  color: white;
+}
+
+/* Divider */
+.horizontal-line {
+  border: 2px solid #64748b;
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* Job Meta Information */
+.job-meta {
+  margin: 10px;
+}
+
+.job-package {
+  margin-top: 10px;
+}
+
+/* Alignment */
+.alignment {
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+}
+
+.link-icon {
+  margin-left: 10px;
+}
+
+/* Skills Section */
+.skills-margin {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+  margin: 0;
+}
+
+.skills-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+
+.skills-image {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+/* Bottom Container */
+.bottom-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Life at Company Section */
+.lifeAtCompanyImage {
+  height: 200px;
+  width: 100%;
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.lifeAtCompanydescription {
+  font-family: Roboto, sans-serif;
+  color: #f8fafc;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Font Size Utility */
+.fontSize {
+  font-size: 20px;
+}
+
+/* Similar Jobs Section */
+.SimilarJobsContanier {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Similar Job Cards */
+.similar-job-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  width: 300px;
+  background-color: #202020;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* Similar Job Logo */
+.similarJoblogo {
+  height: 70px;
+  width: 70px;
+  margin-top: 20px;
+}
+
+/* Similar Job Heading */
+.similarJobheading {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Similar Job Description */
+.similarJobDescription {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Centering Utility */
+.align-centering {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Similar Jobs Heading */
+.similarJobsHeading {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Retry Button */
+.retry-button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  background-color: #6366f1;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.retry-button:hover {
+  background-color: #4f46e5;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Small screens (mobile) */
+@media (max-width: 768px) {
+  .cardItemDetails {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .company-logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .job-title {
+    font-size: 20px;
+  }
+
+  .job-rating {
+    font-size: 14px;
+  }
+
+  .skills-item {
+    margin: 10px;
+  }
+
+  .similar-job-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .similarJobheading {
+    font-size: 22px;
+  }
+
+  .similarJobDescription {
+    font-size: 16px;
+  }
+
+  .bottom-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lifeAtCompanyImage {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .retry-button {
+    width: 100%;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .job-title {
+    font-size: 18px;
+  }
+
+  .job-location {
+    font-size: 14px;
+  }
+
+  .lifeAtCompanydescription {
+    font-size: 16px;
+  }
+
+  .similarJobsHeading {
+    font-size: 24px;
+  }
+}
