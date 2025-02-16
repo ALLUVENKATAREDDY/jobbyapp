@@ -87,4 +87,3 @@ Check out the live demo of the Jobby App here: [Jobby App Demo](https://your-liv
 - Tailwind CSS
 - Firebase Authentication
 - JWT Token for Authentication
->>>>>>> README.md file updated
