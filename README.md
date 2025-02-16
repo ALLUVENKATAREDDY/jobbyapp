@@ -4,7 +4,7 @@
 Jobby App is a job search application built using React. This project implements authentication, job listing, filtering, and job details retrieval using APIs. The app provides a seamless experience for job seekers to browse and apply for jobs.
 
 ## Live Demo
-Check out the live demo of the Jobby App here: [Jobby App Demo](https://your-live-project-url.com)
+Check out the live demo of the Jobby App here: [Jobby App Demo](https://venkatjob6.ccbp.tech/)
 
 ## Features
 - **User Authentication:** Secure login and logout functionality.
